@@ -307,6 +307,7 @@ public class Packets {
         public Seq<String> mods = new Seq<>();
         public String locale;
         public String version;
+        public long createdAt;
     }
 
     public static class RoomPlayer {
